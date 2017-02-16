@@ -7,7 +7,7 @@ import (
 	"net/http/httptest"
 	"strings"
 
-	"github.com/gin-gonic/gin"
+	
 	"github.com/manyminds/api2go"
 	. "github.com/manyminds/api2go-adapter/gingonic"
 	"github.com/manyminds/api2go/examples/model"
@@ -17,6 +17,8 @@ import (
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
+
+	"gopkg.in/gin-gonic/gin.v1"
 )
 
 var _ = Describe("api2go with gingonic router adapter", func() {

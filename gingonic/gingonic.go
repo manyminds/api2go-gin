@@ -2,9 +2,9 @@ package gingonic
 
 import (
 	"net/http"
-
-	"github.com/gin-gonic/gin"
+	
 	"github.com/manyminds/api2go/routing"
+	"gopkg.in/gin-gonic/gin.v1"
 )
 
 type ginRouter struct {
