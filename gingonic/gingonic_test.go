@@ -7,10 +7,10 @@ import (
 	"net/http/httptest"
 	"strings"
 
+	. "../gingonic"
 	"github.com/gin-gonic/gin"
 
 	"github.com/manyminds/api2go"
-	. "github.com/manyminds/api2go-adapter/gingonic"
 	"github.com/manyminds/api2go/examples/model"
 	"github.com/manyminds/api2go/examples/resource"
 	"github.com/manyminds/api2go/examples/storage"
